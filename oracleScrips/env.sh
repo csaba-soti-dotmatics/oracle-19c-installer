@@ -1,7 +1,7 @@
 export ORACLE_BASE=/opt/oracle
 export ORACLE_HOME=/opt/oracle/product/18c/dbhome_1
 export INSTALL_DIR=/opt/install
-export INSTALL_FILE_1="LINUX.X64_190000_db_home.zip"
+export INSTALL_FILE_1="LINUX.X64_193000_db_home.zip"
 export INSTALL_RSP="db_inst.rsp"
 export CONFIG_RSP="dbca.rsp.tmpl"
 export PWD_FILE="setPassword.sh"

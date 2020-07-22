@@ -9,7 +9,7 @@ pwd
 mkdir -p $ORACLE_BASE/
 mkdir -p $INSTALL_DIR/
 cp env.sh $RUN_FILE $START_FILE $CREATE_DB_FILE $CONFIG_RSP $CHECK_DB_FILE $USER_SCRIPTS_FILE $ORACLE_BASE/
-# check whether LINUX.X64_190000_db_home.zip exists in $INSTALL_DIR
+# check whether LINUX.X64_193000_db_home.zip exists in $INSTALL_DIR
 FILE=/tmp/$INSTALL_FILE_1
 if test -f "$FILE"; then
     echo "$FILE exist"
