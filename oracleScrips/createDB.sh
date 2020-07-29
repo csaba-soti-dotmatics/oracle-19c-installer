@@ -13,8 +13,9 @@
 # DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 # 
 
-set -e
-set -x
+set -o xtrace
+set -o errexit
+set -o pipefail
 
 # Check whether ORACLE_SID is passed on
 export ORACLE_SID=${1:-ORCLCDB}

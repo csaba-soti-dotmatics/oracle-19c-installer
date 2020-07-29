@@ -10,7 +10,9 @@
 # DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 # 
 
-set -x
+set -o xtrace
+set -o errexit
+set -o pipefail
 
 ########### Move DB files ############
 function moveFiles {

@@ -9,9 +9,9 @@
 # 
 # DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 #
-set -e
-set -u
-set -x
+set -o xtrace
+set -o errexit
+set -o pipefail
 
 source env.sh
 

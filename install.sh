@@ -1,6 +1,6 @@
-set -e
-set -u
-set -x
+set -o xtrace
+set -o errexit
+set -o pipefail
 
 cd oracleScrips
 source env.sh
